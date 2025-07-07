@@ -50,6 +50,7 @@ The organization follows these main layers:
 - **Application**: Application logic and Use Case contracts and implementations. This is **Use Cases** in clean architecture.
 - **Presentation**: It is part of Infrastructure. Related to web controller. User Interaction.
 - **Data**: It is part of Infrastructure. Related to persistence of data and query data.
+- **Infrastructure**: It is part of Infrastructure. Related to spring framework. Here will come your config.
 
 
 Please note that this design is **one interpretation** and may differ from other examples or publications on the subject.
