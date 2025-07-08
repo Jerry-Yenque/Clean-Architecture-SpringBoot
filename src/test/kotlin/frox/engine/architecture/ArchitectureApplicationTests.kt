@@ -1,7 +1,5 @@
 package frox.engine.architecture
 
-import com.jayway.jsonpath.DocumentContext
-import com.jayway.jsonpath.JsonPath
 import frox.engine.architecture.presentation.dto.`in`.ProductCreateDto
 import frox.engine.architecture.presentation.dto.out.ProductResponseDto
 import org.assertj.core.api.Assertions.assertThat
@@ -10,10 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.boot.test.web.client.TestRestTemplate
 import org.springframework.http.HttpStatus
-import org.springframework.http.ResponseEntity
-import org.springframework.test.annotation.DirtiesContext
 import java.math.BigDecimal
-import java.net.URI
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class ArchitectureApplicationTests @Autowired constructor(

@@ -1,10 +1,8 @@
-package frox.engine.architecture.infrastructure.service
+package frox.engine.architecture.application.usecase.product.implementation
 
 import frox.engine.architecture.application.usecase.product.contract.CreateProductUseCase
 import frox.engine.architecture.application.usecase.product.contract.ProductUseCases
-import org.springframework.stereotype.Service
 
-@Service
-data class ProductService(
+class ProductUseCasesImpl(
     override val createProductUseCase: CreateProductUseCase
 ) : ProductUseCases
